@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './footer-component.component.html',
-  styleUrl: './footer-component.component.scss'
+  styleUrl: './footer-component.component.scss',
 })
 export class FooterComponentComponent {
-
+  title = 'angular-first-app';
 }
